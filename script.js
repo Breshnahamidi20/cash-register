@@ -34,12 +34,12 @@ const updateUI = (change) => {
   if (change) {
     change.forEach(([changeDenomination, changeAmount]) => {
       const targetArr = cid.find(([denominationName]) => denominationName === changeDenomination);
-        targetArr[1] = (Math.round(targetArr[1] * 100) - Math.round(changeAmount * 100)) / 100;
+      targetArr[1] = (Math.round(targetArr[1] * 100) - Math.round(changeAmount * 100)) / 100;
     });
   }
 
   cash.value = '';
-    priceScreen.textContent = `Total: $${price}`;
+  priceScreen.textContent = `Total: $${price}`;
   cashDrawerDisplay.innerHTML = `<p><strong>Change in drawer:</strong></p>
     ${cid.map(([denominationName, amount]) => `<p>${currencyNameMap[denominationName]}: $${amount}</p>`).join('')}`;
 };
@@ -55,14 +55,14 @@ const checkCashRegister = () => {
 
   if (cashInCents < priceInCents) { // eslint-disable-next-line no-alert
     alert('Customer does not have enough money to purchase the item');
-       cash.value = '';
-    return
+    cash.value = '';
+    return;
   }
 
   if (cashInCents === priceInCents) {
     displayChangeDue.innerHTML = '<p>No change due - customer paid with exact cash</p>';
-    cash.value = ''
-    return
+    cash.value = '';
+    return;
   }
 
   let changeDue = cashInCents - priceInCents;
