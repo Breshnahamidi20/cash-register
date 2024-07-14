@@ -2,9 +2,7 @@
 
 ## Add functionality to check if an input is a palindrome, with input validation and dynamic result display.📝
 
-> This project is a web application built with HTML, CSS, and JavaScript that change the number you enter to from Arabic Numerals to RomanNumeral.
-
-
+> This project is a web application built with HTML, CSS, and JavaScript . and when a customers want to buy some items with consent price it can calculate it and show they the reminding cash.
 
 ## Demo 📸
 [live Demo] ( )
@@ -25,7 +23,7 @@ git clone https://github.com/Breshnahamidi20/cash-register.git
 
 ```bash
 2: Navigate to the Project Directory:
-cd roman-numeral
+cd cash-register
 ```
 
 ```bash
@@ -35,13 +33,13 @@ cd roman-numeral
 ## Usage 🎯
 
 ```bash
-To use the project, open index.html in your browser, ensure style.css and script.js are in the same directory, enter text in the input field, click "Check", and view the  Roman Numeral.
+To use the project, open index.html in your browser, ensure style.css and script.js are in the same directory, enter the amount of cash in the input field, click "Check", and view the remimding cash and other details .
 ```
 
 ## Features ⭐
 
 - Real-time Input Validation: Alerts users if no input is provided.
-- Dynamic Result Display: Instantly change  Arabic Numerals to Eoman Numerals, providing immediate feedback.
+- Dynamic Result Display: Instantly show the reminding cash if you Enter enough money, providing immediate feedback.
 - User-Friendly Interface: Clean and simple design for easy interaction.
 
 ## Author 👩‍💻
