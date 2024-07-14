@@ -60,7 +60,8 @@ button {
   color: #fffbfb;
   padding: 15px 25px;
   background-color: rgb(223, 190, 6);
-  background-image: radial-gradient(
+  background-image: 
+  radial-gradient(
     93% 87% at 87% 89%,
     rgb(221, 221, 1, 0.23)  0%,
     transparent 86.18%
@@ -118,7 +119,7 @@ button:hover {
     height: 200px;
     display: flex;
   }
-  
+
   main {
     width: 150px;
     display: flex;
@@ -135,7 +136,7 @@ button:hover {
     top: 10px;
     left: 60px;
     position: absolute;
-  } 
+  }
 
   input {
     width: 200px;
@@ -144,7 +145,7 @@ button:hover {
     top: 150px;
     left: 20px;
   }
-  
+
   button {
     width: 200px;
     height: 20px;
