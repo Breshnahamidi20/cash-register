@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-image: url(55.jpg);
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
 }
 
 main {
@@ -59,9 +59,8 @@ input {
 button {
   color: #fffbfb;
   padding: 15px 25px;
-  background-color:rgb(223, 190, 6);
-  background-image:
-    radial-gradient(
+  background-color: rgb(223, 190, 6);
+  background-image: radial-gradient(
       93% 87% at 87% 89%,
       rgb(221, 221, 1, 0.23)  0%,
       transparent 86.18%
@@ -108,26 +107,26 @@ button:hover {
   }
 
   main {
-      width: 200px;
-      height: 300px;
+    width: 200px;
+    height: 300px;
   }
 }
 
 @media (max-width: 360px) {
   body {
-      width: 360px;
-      height: 200px;
-      display: flex;
+    width: 360px;
+    height: 200px;
+    display: flex;
   }
   main {
-      width: 150px;
-      display: flex;
-      height: 150px;
-      padding: 40px;
-      position: absolute;
-      left: 30px;
-      top: 30px;
-      max-height: 180px;
+    width: 150px;
+    display: flex;
+    height: 150px;
+    padding: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    max-height: 180px;
   }
 
   h1 {
@@ -138,20 +137,20 @@ button:hover {
   } 
 
   input {
-      width: 200px;
-      height: 10px;
-      position: absolute;
-      top: 150px;
-      left: 20px;
+    width: 200px;
+    height: 10px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
   }
   
   button {
-      width: 200px;
-      height: 20px;
-      padding: 3px;
-      position: absolute;
-      left: 20px;
-      top: 180px;
+    width: 200px;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    left: 20px;
+    top: 180px;
   }
 
   #change-due {
