@@ -105,11 +105,10 @@ button:hover {
   display: none;
 }
 
-#top
 
 @media (max-width: 700px) {
   body {
-      background-image: url(66.jpg ) width = "400px";
+      background-image: url(66.jpg );
   }
 
   main {
