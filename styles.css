@@ -60,18 +60,18 @@ button {
   color: #fffbfb;
   padding: 15px 25px;
   background-color: rgb(223, 190, 6);
-  background-image: 
-  radial-gradient(
-    93% 87% at 87% 89%,
-    rgb(221, 221, 1, 0.23)  0%,
-    transparent 86.18%
-  ),
+  background-image:
     radial-gradient(
-    66% 66% at 26% 20%,
-    rgba(230, 255, 5, 0.658) 0%,
-    rgba(255, 239, 13, 0) 69.79%,
-    rgba(229, 255, 0, 0) 100%
-  );
+      93% 87% at 87% 89%,
+      rgb(221, 221, 1, 0.23)  0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(230, 255, 5, 0.658) 0%,
+      rgba(255, 239, 13, 0) 69.79%,
+      rgba(229, 255, 0, 0) 100%
+    );
   border-radius: 14px;
   font-weight: bold;
   font-size: 16px;
