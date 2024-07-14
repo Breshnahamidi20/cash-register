@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(55.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+  }
+  
+  main {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 12px rgba(241, 237, 2, 1), 0 8px 16px 12px rgb(255, 251, 1);
+    text-align: center;
+    max-width: 500px;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #a90303;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  input,
+  button,
+  p {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #030000;
+    font-size: 100%;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    color: #fffbfb;
+    padding: 17px 25px;
+    background-color:rgb(223, 190, 6);
+    background-image:
+      radial-gradient(
+        93% 87% at 87% 89%,
+        rgb(221, 221, 1, 0.23)  0%,
+        transparent 86.18%
+      ),
+      radial-gradient(
+        66% 66% at 26% 20%,
+        rgba(230, 255, 5, 0.658) 0%,
+        rgba(255, 239, 13, 0) 69.79%,
+        rgba(229, 255, 0, 0) 100%
+      );
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid rgb(121, 109, 3);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #918e07;
+  }
+  
+  .cash-drawer-display {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .price-screen {
+    font-size: 24px;
+    font-weight: bold;
+    color:red;
+  }
+  
+  .to-hide {
+    display: ;
+  }
+
+  @media (max-width: 700px) {
+    body {
+        background-image: url(66.jpg );
+    }
+
+    main {
+        width:200px;
+        height: 200px;
+        top:90px;
+    }
+
+    #change-due {
+      width:90px;
+      height: 70;
+      font-size: small;
+
+    }
+
+    h1 {
+      width:;
+      height:;
+      font-size:20px;
+    }
+
+  }
+
+  @media (max-width: 360px) {
+    body {
+        width:360px;
+        height: 200px;
+        display:flex;
+    }
+    main {
+        width:150px;
+        display:flex;
+        height:80px;
+        padding:50px;
+        position:absolute;
+        left:30px;
+    }
+
+    h1 {
+      font-size:18px;
+    } 
+
+    input {
+        width:200px;
+        height:10px;
+        position:absolute;
+        top:100px;
+        left:30px;
+    }
+    
+    button {
+        width:200px;
+        height:20px;
+        padding:3px;
+        position:absolute;
+        left:30px;
+        top:130px;
+    
+    }
+  }
+
+  
