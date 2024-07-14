@@ -104,11 +104,9 @@ const checkCashRegister = () => {
     return;
   }
 
-    formatResults(result.status, result.change);
+  formatResults(result.status, result.change);
   updateUI(result.change);
 };
-
-
 
 const checkResults = () => {
   if (!cash.value) {
