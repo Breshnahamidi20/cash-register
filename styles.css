@@ -87,11 +87,6 @@ button:hover {
   background-color: #918e07;
 }
 
-
-
-
-
-
 .price-screen {
   box-shadow: 0 4px 8px 12px rgba(241, 237, 2, 1), 0 8px 16px 12px rgb(255, 251, 1);
   backdrop-filter: blur(10px);
@@ -169,13 +164,13 @@ button:hover {
   height: 90%;
   color:white;
   padding: 13px;
-  font-size:small;
+  font-size: small;
   font-weight: 300;
   margin-right: 20px;
   position: absolute;
-  top:2px;
+  top: 2px;
   border-radius: 30px;
-  right:5px;
+  right: 5px;
 }
 
 .bottom-register {
@@ -186,8 +181,7 @@ button:hover {
   height: 50px;
   width: 335px;
   margin-top: 310px;
-  position:absolute;
-
+  position: absolute;
 
 }
 
@@ -198,14 +192,6 @@ button:hover {
   height: 20px;
   background-color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 700px) {
   body {
@@ -278,9 +264,9 @@ button:hover {
   text-align: center;
   display: flex;
   align-items: center;
-  position:absolute;
-  top:270px;
-  margin-left:50px;
+  position: absolute;
+  top: 270px;
+  margin-left: 50px;
   box-shadow: 0 2px 3px 2px rgb(237, 241, 2), 0 2px 3px 2px rgb(255, 251, 1);
 }
 
@@ -298,7 +284,7 @@ button:hover {
   width: 10px;
   position: absolute;
   margin-left: 80px;
-  top:310px;
+  top: 310px;
 }
 
 .top-register {
@@ -311,9 +297,9 @@ button:hover {
   backdrop-filter: blur(10px);
   height: 195px;
   width: 140px;
-  position:absolute;
+  position: absolute;
   margin-left: 20px;
-  top:330px;
+  top: 330px;
 }
 
 .btns-container {
@@ -347,13 +333,13 @@ button:hover {
   height: 90%;
   color:white;
   padding: 13px;
-  font-size:9px;
+  font-size: 9px;
   font-weight: 300;
   margin-right: -40px;
   position: absolute;
-  top:2px;
+  top: 2px;
   border-radius: 30px;
-  right:5px;
+  right: 5px;
 }
 
 .bottom-register {
@@ -364,9 +350,8 @@ button:hover {
   height: 20px;
   width: 160px;
   margin-top: 209px;
-  position:absolute;
-margin-left:10px;
-
+  position: absolute;
+margin-left: 10px;
 }
 
 .circle {
@@ -378,7 +363,4 @@ margin-left:10px;
   position:absolute;
   top:170px;
 }
-
-
-
 }
