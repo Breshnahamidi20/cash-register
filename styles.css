@@ -98,8 +98,8 @@ button:hover {
   text-align: center;
   display: flex;
   align-items: center;
-  position:absolute;
-  top:320px;
+  position: absolute;
+  top: 320px;
 }
 
 #price {
@@ -115,7 +115,7 @@ button:hover {
   width: 40px;
   position: absolute;
   margin-left: 650px;
-  top:410px;
+  top: 410px;
 }
 
 .top-register {
@@ -128,9 +128,9 @@ button:hover {
   backdrop-filter: blur(10px);
   height: 280px;
   width: 325px;
-  position:absolute;
+  position: absolute;
   margin-left: 550px;
-  top:440px;
+  top: 440px;
 }
 
 .btns-container {
@@ -182,7 +182,6 @@ button:hover {
   width: 335px;
   margin-top: 310px;
   position: absolute;
-
 }
 
 .circle {
@@ -255,112 +254,111 @@ button:hover {
     position: absolute;
   }
 
-
   .price-screen {
-  height: 20px;
-  width: 80px;
-  color: white;
-  font-size: 0.9rem;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 270px;
-  margin-left: 50px;
-  box-shadow: 0 2px 3px 2px rgb(237, 241, 2), 0 2px 3px 2px rgb(255, 251, 1);
-}
+    height: 20px;
+    width: 80px;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 270px;
+    margin-left: 50px;
+    box-shadow: 0 2px 3px 2px rgb(237, 241, 2), 0 2px 3px 2px rgb(255, 251, 1);
+  }
 
-#price {
-  font-size: 1.5rem;
-  text-align: center;
-}
+  #price {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-.connector {
-  margin-left: -20px;
-  box-shadow: 0 4px 2px 1px rgb(237, 241, 2), 0 1px 2px 2px rgb(255, 251, 1);
-  text-align: center;
-  backdrop-filter: blur(10px);
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  margin-left: 80px;
-  top: 310px;
-}
+  .connector {
+    margin-left: -20px;
+    box-shadow: 0 4px 2px 1px rgb(237, 241, 2), 0 1px 2px 2px rgb(255, 251, 1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin-left: 80px;
+    top: 310px;
+  }
 
-.top-register {
-  display: flex;
-  justify-content: space-around;
-  border-radius: 35px 35px 0 0;
-  padding-top: 20px;
-  box-shadow: 0 2px 1px 1px rgba(241, 237, 2, 1), 0 2px 2px 1px rgb(255, 251, 1);
-  text-align: center;
-  backdrop-filter: blur(10px);
-  height: 195px;
-  width: 140px;
-  position: absolute;
-  margin-left: 20px;
-  top: 330px;
-}
+  .top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    box-shadow: 0 2px 1px 1px rgba(241, 237, 2, 1), 0 2px 2px 1px rgb(255, 251, 1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    height: 195px;
+    width: 140px;
+    position: absolute;
+    margin-left: 20px;
+    top: 330px;
+  }
 
-.btns-container {
-  width: 25%;
-  text-align: center;
-}
+  .btns-container {
+    width: 25%;
+    text-align: center;
+  }
 
-.btn {
-  border-radius: 10%;
-  border: none;
-  width: 20px;
-  height: 20px;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-}
+  .btn {
+    border-radius: 10%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
 
-.check-btn-styles {
-  cursor: pointer;
-  width: 170px;
-  height: 30px;
-  margin: 10px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  border-width: 3px;
-}
+  .check-btn-styles {
+    cursor: pointer;
+    width: 170px;
+    height: 30px;
+    margin: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-width: 3px;
+  }
 
-.cash-drawer-display {
-  width: 180px;
-  height: 90%;
-  color:white;
-  padding: 13px;
-  font-size: 9px;
-  font-weight: 300;
-  margin-right: -40px;
-  position: absolute;
-  top: 2px;
-  border-radius: 30px;
-  right: 5px;
-}
+  .cash-drawer-display {
+    width: 180px;
+    height: 90%;
+    color: white;
+    padding: 13px;
+    font-size: 9px;
+    font-weight: 300;
+    margin-right: -40px;
+    position: absolute;
+    top: 2px;
+    border-radius: 30px;
+    right: 5px;
+  }
 
-.bottom-register {
-  border: 1px solid yellow;
-  box-shadow: 0 2px 2px 1px rgba(241, 237, 2, 1), 0 1px 2px 1px rgb(255, 251, 1);
-  text-align: center;
-  backdrop-filter: blur(10px);
-  height: 20px;
-  width: 160px;
-  margin-top: 209px;
-  position: absolute;
-margin-left: 10px;
-}
+  .bottom-register {
+    border: 1px solid yellow;
+    box-shadow: 0 2px 2px 1px rgba(241, 237, 2, 1), 0 1px 2px 1px rgb(255, 251, 1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    height: 20px;
+    width: 160px;
+    margin-top: 209px;
+    position: absolute;
+    margin-left: 10px;
+  }
 
-.circle {
-  margin: 15px auto;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  background-color: rgb(255, 255, 255);
-  position:absolute;
-  top:170px;
-}
+  .circle {
+    margin: 15px auto;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top:170px;
+  }
 }
