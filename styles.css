@@ -208,6 +208,7 @@ button:hover {
     width: 360px;
     height: 200px;
     display: flex;
+    background-color:#567C6D;
   }
 
   main {
@@ -274,11 +275,11 @@ button:hover {
   }
 
   .connector {
-    margin-left: -20px;
+    margin-left: 80px;
     box-shadow: 0 4px 2px 1px rgb(237, 241, 2), 0 1px 2px 2px rgb(255, 251, 1);
     text-align: center;
     backdrop-filter: blur(10px);
-    height: 10px;
+    height: 13px;
     width: 10px;
     position: absolute;
     top: 310px;
@@ -352,12 +353,12 @@ button:hover {
   }
 
   .circle {
-    margin: 15px auto;
     border-radius: 50%;
     width: 10px;
     height: 10px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 170px;
+    top:0px;
+    margin-left:80px;
   }
 }
