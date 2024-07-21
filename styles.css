@@ -203,7 +203,7 @@ button:hover {
   }
 
   #purchase-btn {
-    width:200px;
+    width: 200px;
   }
 
   .price-screen {
@@ -218,12 +218,12 @@ button:hover {
     position: absolute;
     top: 450px;
   }
-  
+
   #price {
     font-size: 1.5rem;
     text-align: center;
   }
-  
+
   .connector {
     box-shadow: 0 4px 8px 8px rgb(237, 241, 2), 0 8px 16px 8px rgb(255, 251, 1);
     text-align: center;
@@ -234,7 +234,7 @@ button:hover {
     right: 100px;
     top: 530px;
   }
-  
+
   .top-register {
     display: flex;
     justify-content: space-around;
@@ -246,10 +246,10 @@ button:hover {
     height: 280px;
     width: 325px;
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 560px;
   }
-  
+
   .btns-container {
     width: 25%;
     text-align: center;
@@ -263,7 +263,7 @@ button:hover {
     background-color: rgb(255, 255, 255);
     text-align: center;
   }
-  
+
   .check-btn-styles {
     cursor: pointer;
     width: 500px;
@@ -275,7 +275,7 @@ button:hover {
     text-align: center;
     border-width: 3px;
   }
-  
+
   .cash-drawer-display {
     width: 180px;
     height: 90%;
@@ -289,7 +289,7 @@ button:hover {
     border-radius: 30px;
     right: 5px;
   }
-  
+
   .bottom-register {
     border: 1px solid black;
     box-shadow: 0 4px 8px 8px rgba(241, 237, 2, 1), 0 8px 8px 8px rgb(255, 251, 1);
@@ -300,7 +300,7 @@ button:hover {
     margin-top: 310px;
     position: absolute;
   }
-  
+
   .circle {
     margin: 15px auto;
     border-radius: 50%;
@@ -310,7 +310,7 @@ button:hover {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   body {
     width: 360px;
     height: 200px;
